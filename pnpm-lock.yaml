@@ -163,7 +163,7 @@ importers:
         version: 1.0.0
       semver:
         specifier: ^7.5.0
-        version: 7.5.0
+        version: 7.5.2
       serve-placeholder:
         specifier: ^2.0.1
         version: 2.0.1
@@ -828,7 +828,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.5.0
+      semver: 7.5.2
       tar: 6.1.13
     transitivePeerDependencies:
       - encoding
@@ -1296,7 +1296,7 @@ packages:
       grapheme-splitter: 1.0.4
       ignore: 5.2.4
       natural-compare-lite: 1.4.0
-      semver: 7.5.0
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1370,7 +1370,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.0
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1391,7 +1391,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.0(typescript@5.0.4)
       eslint: 8.38.0
       eslint-scope: 5.1.1
-      semver: 7.5.0
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1756,7 +1756,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.0
+      semver: 7.5.2
     dev: true
 
   /bundle-name@3.0.0:
@@ -1879,7 +1879,7 @@ packages:
       pathe: 1.1.0
       pkg-types: 1.0.2
       scule: 1.0.0
-      semver: 7.5.0
+      semver: 7.5.2
       yaml: 2.2.1
     transitivePeerDependencies:
       - supports-color
@@ -2018,7 +2018,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.5.0
+      semver: 7.5.2
       well-known-symbols: 2.0.0
     dev: true
 
@@ -2594,7 +2594,7 @@ packages:
       is-core-module: 2.12.0
       minimatch: 3.1.2
       resolve: 1.22.2
-      semver: 7.5.0
+      semver: 7.5.2
     dev: true
 
   /eslint-plugin-node@11.1.0(eslint@8.38.0):
@@ -2640,7 +2640,7 @@ packages:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.25
       safe-regex: 2.1.1
-      semver: 7.5.0
+      semver: 7.5.2
       strip-indent: 3.0.0
     dev: true
 
@@ -4071,7 +4071,7 @@ packages:
     dependencies:
       execa: 6.1.0
       parse-package-name: 1.0.0
-      semver: 7.5.0
+      semver: 7.5.2
       validate-npm-package-name: 4.0.0
     dev: true
 
@@ -4609,8 +4609,8 @@ packages:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
 
-  /semver@7.5.0:
-    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
+  /semver@7.5.2:
+    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
