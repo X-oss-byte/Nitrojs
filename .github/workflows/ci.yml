@@ -44,7 +44,7 @@ jobs:
       - run: pnpm vitest --coverage
         env:
           NODE_OPTIONS: --experimental-vm-modules
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v5
       - name: Release Edge
         if: |
           github.event_name == 'push' &&
